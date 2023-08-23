@@ -1,0 +1,25 @@
+{
+  "name": "format-lint-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --cache .",
+    "lint": "eslint --cache ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinsoul75/format-lint-hook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinsoul75/format-lint-hook/issues"
+  },
+  "homepage": "https://github.com/jinsoul75/format-lint-hook#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2"
+  }
+}
